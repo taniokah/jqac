@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Japanese Question-Answering Corpus (JQAC)</title>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  <head>
+  <body>
+    <div style="width: 90%; margin: auto;">
+    <h1>Japanese Question-Answering Corpus (JQAC) </h1>
+
+    <h2>What's JQAC?</h1>
+
+    <p>Japanese Question-Answering Corpus (JQAC) is a dataset, consisting of question-answering pairs,
+  which is manually made by university students on a set of Japanese Wikipedia articles and some public documents. </p>
+    <p>(distributed under the CC BY-SA 4.0 license)</p>
+
+    <h2>Categories</h1>
+      <table style="width:70%">
+        <tr>
+          <th>Theme</th>
+          <th>Category</th>
+          <th>Author1</th>
+          <th>Number1</th>
+          <th>Author2</th>
+          <th>Number2</th>
+          <th>Total</th>
+        </tr>
+        <tr>
+          <th>A</th>
+          <td>学問 Academic Ddiscipline</td>
+          <td>KA</td>
+          <td>100</td>
+          <td>-</td>
+          <td>0</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <th>B</th>
+          <td>技術 Techonology</td>
+          <td>SI</td>
+          <td>99</td>
+          <td>KI</td>
+          <td>57</td>
+          <td>156</td>
+        </tr>
+        <tr>
+          <th>C</th>
+          <td>自然 Nature</td>
+          <td>SI</td>
+          <td>83</td>
+          <td>KI</td>
+          <td>63</td>
+          <td>149</td>
+        </tr>
+        <tr>
+          <th>D</th>
+          <td>社会 Society</td>
+          <td>KI</td>
+          <td>66</td>
+          <td>SI</td>
+          <td>66</td>
+          <td>132</td>
+        </tr>
+        <tr>
+          <th>E</th>
+          <td>地理 Geograpghy</td>
+          <td>KA</td>
+          <td>100</td>
+          <td>-</td>
+          <td>0</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <th>F</th>
+          <td>人間 Humans</td>
+          <td>SA</td>
+          <td>74</td>
+          <td>-</td>
+          <td>0</td>
+          <td>74</td>
+        </tr>
+        <tr>
+          <th>G</th>
+          <td>文化 Culture</td>
+          <td>HI</td>
+          <td>138</td>
+          <td>-</td>
+          <td>0</td>
+          <td>138</td>
+        </tr>
+        <tr>
+          <th>H</th>
+          <td>歴史 History</td>
+          <td>YA</td>
+          <td>61</td>
+          <td>-</td>
+          <td>0</td>
+          <td>61</td>
+        </tr>
+        <tr>
+          <th>J</th>
+          <td>徳島大学シラバス Tokushima University Syllabus</td>
+          <td>KA</td>
+          <td>60</td>
+          <td>YA</td>
+          <td>60</td>
+          <td>120</td>
+        </tr>
+      </table>
+
+    <h2>Format</h1>
+
+      <p>
+        The following data includes nine CSV files in UTF-8. Each file is partetionned as follows: <br>
+        <br>
+        <table style="width:100%">
+          <tr nowrap>
+            <th nowrap>テーマ<br>（カテゴリ）</th><th>トピック<br>（タイトル）</th><th>質問<br>(What, Who, Where, Whose, How, Yes/No)</th><th>解答</th><th nowrap>難易度<br>（出題者）</th><th nowrap>難易度<br>（解答者）</th><th>URL（元文書）</th>
+          </tr>
+          <tr nowrap>
+            <td nowrap>学問</td><td nowrap>アリストテレス</td><td nowrap>アリストテレスは誰の弟子ですか？</td><td nowrap>プラトン</td><td>5</td><td></td><td nowrap>https://ja.wikipedia.org/wiki/%E3%82%A2%...</td>
+          </tr>
+          <tr nowrap>
+            <td nowrap>学問</td><td nowrap>アリストテレス</td><td nowrap>アリストテレスは紀元前何年に出生しましたか？</td><td nowrap>紀元前384年</td><td nowrap>5</td><td nowrap></td><td nowrap>https://ja.wikipedia.org/wiki/%E3%82%A2%E3%...</td>
+          </tr>
+          <tr nowrap>
+            <td nowrap>学問</td><td nowrap>アリストテレス</td><td nowrap>紀元前367年,アリストテレスはどこに入門しましたか？</td><td nowrap>アカデメイア</td><td nowrap>5</td><td nowrap></td><td nowrap>https://ja.wikipedia.org/wiki/%E3%82%A2%E3%...</td>
+          </tr>
+          <tr nowrap>
+            <td nowrap>学問</td><td nowrap>アリストテレス</td><td nowrap>アリストテレスは師プラトンから何と評されましたか？</td><td nowrap>学校の精神</td><td nowrap>5</td><td nowrap></td><td nowrap>https://ja.wikipedia.org/wiki/%E3%82%A2%E3%...</td>
+          </tr>
+        </table>
+      </p>
+
+    <h2>Download</h1>
+
+    <!--
+    <p style="font-size: 28px; color: orange">Comming Soon!!</p>
+    -->
+    <p>
+      The latest JQAC dataset is here.
+      <a href="jqac20180625.tgz" download="jqac20180625.tgz">jqac20180625.tgz</a>
+    </p>
+
+    <h2>Referrence</h1>
+    <ul>
+      <li>APCLC2018 <!--<a href="APCLC2018_tanioka_20180918_revised.pdf">paper</a>--> <a href="APCLC2018_poster_20180917_revised.pdf">poster</a> <a href="APCLC2018-TANIOKA.bib" download="APCLC2018-TANIOKA.bib">bibtex</a>
+      <p>
+        To cite this paper, please use the following reference: <br>
+        <div style="width: 60%; border-style: solid; border-width: 1px; border-color: #000080;">
+        Hiroki Tanioka, Kaoru Kimura, Kazuma Takaoka, Ryohei Nakatani, and Yoshitaka Uchida, "Automatic Generation of Japanese Question-Answering Pairs," Fourth Asia Pacific Corpus Linguistics Conference (APCLC 2018), September, 2018.<br>
+        </div>
+      </p>
+    </ul>
+    <p>This containt is managed by Hiroki Tanioka, since 2018.</p>
+    </div>
+  </body>
+</html>
